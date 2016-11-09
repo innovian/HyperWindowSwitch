@@ -1,0 +1,6 @@
+framework module HyperWindowSwitch {
+  umbrella header "HyperWindowSwitch-umbrella.h"
+
+  export *
+  module * { export * }
+}

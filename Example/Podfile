@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HyperWindowSwitch_Example' do
+  pod 'HyperWindowSwitch', :path => '../'
+
+  target 'HyperWindowSwitch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

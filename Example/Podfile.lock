@@ -1,0 +1,16 @@
+PODS:
+  - HyperWindowSwitch (0.1.0)
+
+DEPENDENCIES:
+  - HyperWindowSwitch (from `../`)
+
+EXTERNAL SOURCES:
+  HyperWindowSwitch:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HyperWindowSwitch: 28dd9dd9ca74cda5655e472d709ea1b36aba1543
+
+PODFILE CHECKSUM: edcdee9a39367d0f2b3dbdd8d17da49fdc4cbd86
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,6 @@
+framework module Pods_HyperWindowSwitch_Tests {
+  umbrella header "Pods-HyperWindowSwitch_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
