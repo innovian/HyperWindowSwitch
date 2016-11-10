@@ -17,7 +17,7 @@
                BlueprintIdentifier = "6003F589195388D20070C39A"
                BuildableName = "HyperWindowSwitch_Example.app"
                BlueprintName = "HyperWindowSwitch_Example"
-               ReferencedContainer = "container:HyperWindowSwitch.xcodeproj">
+               ReferencedContainer = "container:HyperWindowSwitjjch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
                BuildableName = "HyperWindowSwitch_Tests.xctest"
                BlueprintName = "HyperWindowSwitch_Tests"
-               ReferencedContainer = "container:HyperWindowSwitch.xcodeproj">
+               ReferencedContainer = "container:HyperWindowSwitjjch.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "6003F589195388D20070C39A"
             BuildableName = "HyperWindowSwitch_Example.app"
             BlueprintName = "HyperWindowSwitch_Example"
-            ReferencedContainer = "container:HyperWindowSwitch.xcodeproj">
+            ReferencedContainer = "container:HyperWindowSwitjjch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -68,7 +68,7 @@
             BlueprintIdentifier = "6003F589195388D20070C39A"
             BuildableName = "HyperWindowSwitch_Example.app"
             BlueprintName = "HyperWindowSwitch_Example"
-            ReferencedContainer = "container:HyperWindowSwitch.xcodeproj">
+            ReferencedContainer = "container:HyperWindowSwitjjch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -94,7 +94,7 @@
             BlueprintIdentifier = "6003F589195388D20070C39A"
             BuildableName = "HyperWindowSwitch_Example.app"
             BlueprintName = "HyperWindowSwitch_Example"
-            ReferencedContainer = "container:HyperWindowSwitch.xcodeproj">
+            ReferencedContainer = "container:HyperWindowSwitjjch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

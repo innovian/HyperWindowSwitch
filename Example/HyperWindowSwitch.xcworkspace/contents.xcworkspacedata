@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:HyperWindowSwitch.xcodeproj">
+      location = "group:/Users/AliSoume/Documents/github/HyperWindowSwitch/Example/HyperWindowSwitjjch.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
