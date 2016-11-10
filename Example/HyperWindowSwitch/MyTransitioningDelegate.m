@@ -11,17 +11,19 @@
 
 @implementation MyTransitioningDelegate
 
-- (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source
-{
-    MyTransitioningPresentation *presentationAnimator = [MyTransitioningPresentation new];
-    presentationAnimator.isPresenting = YES;
-    return presentationAnimator;
+-(instancetype)initWithTransitionMode:(transitionMode) transitnioMode{
+    self = [super init];
+    if (self)
+    {
+        _transitionMode = transitnioMode;
+    }
+    return self;
 }
 
-- (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed
+- (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source
 {
-    MyTransitioningPresentation *presentationAnimator = [MyTransitioningPresentation new];
-    presentationAnimator.isPresenting = NO;
+    MyTransitioningPresentation *presentationAnimator = [[MyTransitioningPresentation alloc] initWithTransitionMode: _transitionMode];
+    presentationAnimator.isPresenting = YES;
     return presentationAnimator;
 }
 

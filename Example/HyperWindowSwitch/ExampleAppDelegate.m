@@ -13,11 +13,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
 	[HyperWindowSwitch initializeWindowForAppDelegate:self];
 	
 	UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-	UIViewController *home = [storyboard instantiateViewControllerWithIdentifier:@"HomeNavigationController"];
+	UIViewController *home = [storyboard instantiateViewControllerWithIdentifier:@"LogoutNavigationController"];
 	
 	[HyperWindowSwitch setRootViewController:home];
     return YES;

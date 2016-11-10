@@ -10,5 +10,11 @@
 #import <UIKit/UIKit.h>
 
 @interface MyTransitioningDelegate : NSObject <UIViewControllerTransitioningDelegate>
+typedef enum: NSUInteger {
+    animationModeFade = 0,
+    animationModeFromLeft
+}transitionMode;
 
+@property (nonatomic)transitionMode transitionMode;
+-(instancetype)initWithTransitionMode:(transitionMode) transitnioMode;
 @end

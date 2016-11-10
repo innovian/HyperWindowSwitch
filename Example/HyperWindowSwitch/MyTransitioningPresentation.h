@@ -8,9 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "MyTransitioningDelegate.h"
 
 @interface MyTransitioningPresentation : NSObject <UIViewControllerAnimatedTransitioning>
 
 @property (nonatomic) BOOL isPresenting;
+@property (nonatomic)transitionMode transitionMode;
+-(instancetype)initWithTransitionMode:(transitionMode*) transitionMode;
 
 @end
