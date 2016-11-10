@@ -20,7 +20,7 @@ typedef enum : NSUInteger {
 @interface HyperWindowSwitch : NSObject
 
 /**
- *  step1: You must first set your "Main Interface" equal to null. Main Intrface  is in general tab.
+ *  step1: You must first set your "Main Interface" equals to null. Main Intrface  is in general tab.
  *  step2: Then, you should add initialiezeWindowForAppDelegate in  didFinishLaunchingWithOptions function of AppDelegate.
  *  step3: Add setRootViewController in didFinishLaunchingWithOptions function of AppDelegate after initializeWindowForAppDelegate.
  */
