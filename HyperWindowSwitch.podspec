@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HyperWindowSwitch'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HyperWindowSwitch.'
+  s.summary          = 'Easily Switch UIWindow’s RootviewController'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+In some scenarios you have to change the UIWindow’s rootviewController such as when the user’s token is invalidated on the server and you have to show another viewController, e.g. a login viewController. Although you can deal with pushing or presenting the viewController but using HyperWindowSwitch brings such benefits:
+
+Allows to other viewControllers to be released (which preserves memory)
+Provides several predefined animations
+Supports custom animation.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/HyperWindowSwitch'
+  s.homepage         = 'https://github.com/innovian/HyperWindowSwitch'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'H.Vakilian' => 'xerxes235@yahoo.com' }
+  s.author           = { 'Innovian' => 'innovian.com' }
   s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/HyperWindowSwitch.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.social_media_url = 'https://twitter.com/innovian'
 
   s.ios.deployment_target = '8.0'
 
