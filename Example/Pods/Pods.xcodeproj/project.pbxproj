@@ -7,23 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00F42CB1F8904E8EA2FC3ACB01D5FFEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		0309A07F1DF963EA00444E0C /* HyperWindowSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0309A07D1DF963EA00444E0C /* HyperWindowSwitch.h */; };
+		0309A0801DF963EA00444E0C /* HyperWindowSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0309A07E1DF963EA00444E0C /* HyperWindowSwitch.m */; };
 		39AE2DBDD04A9E45327A74E9F34AD5B6 /* Pods-HyperWindowSwitch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC236FFBFEC501852F48CAFA4523E3A /* Pods-HyperWindowSwitch_Example-dummy.m */; };
+		45DE35A1959EFA66A64C71805324A9B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		4E71F82AFB5A35BE0E6E0373AACAEA4F /* Pods-HyperWindowSwitch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E50717C8F10CA9FD79D67A7B5A7BC /* Pods-HyperWindowSwitch_Tests-dummy.m */; };
-		530DAB8DDE60DC2CD56EC31DFBF8850B /* HyperWindowSwitchDummyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B8CE7FB92C4BAAB40D98DFA5E00B0F /* HyperWindowSwitchDummyVC.m */; };
-		64BABFFA79F38C3E5F2423A3D30B9DC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7450121BE1FD90DF3783C26E67565A5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		84CB6F3907541396CB787A29242D4110 /* HyperWindowSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A841675FC9D1F1EBE106303C6503AC /* HyperWindowSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B5EFF825201EC4FF63081214AC47662 /* Pods-HyperWindowSwitch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9727369BF89232673BAA27852E0DC98A /* Pods-HyperWindowSwitch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D3136AE64C72E6533B3A3F77E11C58D /* HyperWindowSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = D79AA95DE33C214F2F00FDE14A93D859 /* HyperWindowSwitch.m */; };
-		A28E34B2B77E4847957A6801D14F450F /* HyperWindowSwitchDummyVC.h in Headers */ = {isa = PBXBuildFile; fileRef = B650613EF4916B4B75D945A9A6C2190B /* HyperWindowSwitchDummyVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A291A2FA1422A07FA4564DC46C5AA846 /* HyperWindowSwitchTransitioningPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 80583D099E8CCB19E6746AA5F9690E65 /* HyperWindowSwitchTransitioningPresentation.m */; };
-		ABFBF04274CA770087A9B49DC4E23293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		B174E19920533AE4ACB9091438CC3195 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		BDC3563FE09A05A361E3E24E3BF4A78B /* HyperWindowSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = AC2A2EB77723DE3333FE06996B6376D9 /* HyperWindowSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B62463689D9FF61FBDE667C937940970 /* HyperWindowSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A02504F49766B1DBCE6A4B9F2B7CABC /* HyperWindowSwitch-dummy.m */; };
 		C09BE076C6B87F7090858DF0DDA0DB16 /* Pods-HyperWindowSwitch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADF3035FF8BB8D8FA8657E9170708FD0 /* Pods-HyperWindowSwitch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C87F4EF8332E4F13600C8165DDB51D21 /* HyperWindowSwitchTransitioningPresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F206DD77DEEBF6F97A3214BD40AC7A /* HyperWindowSwitchTransitioningPresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8B0E0B9B3C89F909363B6C38025FACC /* HyperWindowSwitchTransitioningDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E46DEC03A467409ACD8D5B6ED154DA /* HyperWindowSwitchTransitioningDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE4DB52AA0B4ADB85DD8F1AE3253EA2A /* HyperWindowSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A841675FC9D1F1EBE106303C6503AC /* HyperWindowSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E840CE1786327FDBD4992D27FD8ACA77 /* HyperWindowSwitchTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F15015407DE62314419DBB1A6E5E70EB /* HyperWindowSwitchTransitioningDelegate.m */; };
-		FC400F05C1E4E83ED47BCECA2BB9E4B8 /* HyperWindowSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A02504F49766B1DBCE6A4B9F2B7CABC /* HyperWindowSwitch-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,12 +25,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 070A1884D4CE713ACE69EB9710988505;
+			remoteGlobalIDString = 3351F717334B4A4433F8B4A20F51AC5F;
 			remoteInfo = HyperWindowSwitch;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0309A07D1DF963EA00444E0C /* HyperWindowSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyperWindowSwitch.h; sourceTree = "<group>"; };
+		0309A07E1DF963EA00444E0C /* HyperWindowSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyperWindowSwitch.m; sourceTree = "<group>"; };
 		093527AF3F868F19609FBD02DF48827E /* Pods_HyperWindowSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperWindowSwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A02504F49766B1DBCE6A4B9F2B7CABC /* HyperWindowSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HyperWindowSwitch-dummy.m"; sourceTree = "<group>"; };
 		0FC236FFBFEC501852F48CAFA4523E3A /* Pods-HyperWindowSwitch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HyperWindowSwitch_Example-dummy.m"; sourceTree = "<group>"; };
@@ -50,10 +46,6 @@
 		5C9AA4136AFD7ACA739B3767FE28412E /* Pods-HyperWindowSwitch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HyperWindowSwitch_Example.modulemap"; sourceTree = "<group>"; };
 		5DDEE7BC62F8D6BEF761C65592454839 /* Pods-HyperWindowSwitch_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HyperWindowSwitch_Tests-resources.sh"; sourceTree = "<group>"; };
 		63CF0619D7EF4088452B047E00216D58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68E46DEC03A467409ACD8D5B6ED154DA /* HyperWindowSwitchTransitioningDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HyperWindowSwitchTransitioningDelegate.h; sourceTree = "<group>"; };
-		69B8CE7FB92C4BAAB40D98DFA5E00B0F /* HyperWindowSwitchDummyVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HyperWindowSwitchDummyVC.m; sourceTree = "<group>"; };
-		69F206DD77DEEBF6F97A3214BD40AC7A /* HyperWindowSwitchTransitioningPresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HyperWindowSwitchTransitioningPresentation.h; sourceTree = "<group>"; };
-		80583D099E8CCB19E6746AA5F9690E65 /* HyperWindowSwitchTransitioningPresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HyperWindowSwitchTransitioningPresentation.m; sourceTree = "<group>"; };
 		84C2330094970C5DA5415522B0AC5B20 /* HyperWindowSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HyperWindowSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		851B0BA74204AC705A3524BF34732161 /* Pods-HyperWindowSwitch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperWindowSwitch_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8A3E50717C8F10CA9FD79D67A7B5A7BC /* Pods-HyperWindowSwitch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HyperWindowSwitch_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -62,28 +54,24 @@
 		9078CED3ABCBE8EE3AB30F8DFEA9586C /* Pods-HyperWindowSwitch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperWindowSwitch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9727369BF89232673BAA27852E0DC98A /* Pods-HyperWindowSwitch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HyperWindowSwitch_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AC2A2EB77723DE3333FE06996B6376D9 /* HyperWindowSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HyperWindowSwitch.h; sourceTree = "<group>"; };
 		ADACA13FA95195AF3514A28410ED53A5 /* HyperWindowSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HyperWindowSwitch-prefix.pch"; sourceTree = "<group>"; };
 		ADF3035FF8BB8D8FA8657E9170708FD0 /* Pods-HyperWindowSwitch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HyperWindowSwitch_Example-umbrella.h"; sourceTree = "<group>"; };
-		B650613EF4916B4B75D945A9A6C2190B /* HyperWindowSwitchDummyVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HyperWindowSwitchDummyVC.h; sourceTree = "<group>"; };
 		C7C81FD97B5EB7DCABD6E960152846F5 /* Pods-HyperWindowSwitch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HyperWindowSwitch_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D3C79673F93D9AE90AE9FD469C2822FB /* HyperWindowSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HyperWindowSwitch.modulemap; sourceTree = "<group>"; };
-		D79AA95DE33C214F2F00FDE14A93D859 /* HyperWindowSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HyperWindowSwitch.m; sourceTree = "<group>"; };
 		DBA9060BC0DF53054D2EB6973B157C6B /* Pods-HyperWindowSwitch_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HyperWindowSwitch_Example-resources.sh"; sourceTree = "<group>"; };
 		DD78B2229BF3980F618ACD512D4794E2 /* Pods-HyperWindowSwitch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperWindowSwitch_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E3AA988A2AEA426ECC58F90734686E1F /* Pods-HyperWindowSwitch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperWindowSwitch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EBC24D5FAB1DC346D37A3A776FF3E643 /* Pods-HyperWindowSwitch_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HyperWindowSwitch_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		F15015407DE62314419DBB1A6E5E70EB /* HyperWindowSwitchTransitioningDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HyperWindowSwitchTransitioningDelegate.m; sourceTree = "<group>"; };
 		FB632E40254B7661824C828576BF7407 /* Pods-HyperWindowSwitch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperWindowSwitch_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0634F43A15514C30601E4F5BF08920BF /* Frameworks */ = {
+		0DD7362136C8E2A5DF0F0AF6D19ADBA0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64BABFFA79F38C3E5F2423A3D30B9DC1 /* Foundation.framework in Frameworks */,
+				7450121BE1FD90DF3783C26E67565A5F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABFBF04274CA770087A9B49DC4E23293 /* Foundation.framework in Frameworks */,
+				45DE35A1959EFA66A64C71805324A9B7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B174E19920533AE4ACB9091438CC3195 /* Foundation.framework in Frameworks */,
+				00F42CB1F8904E8EA2FC3ACB01D5FFEA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,34 +120,30 @@
 			path = "Target Support Files/Pods-HyperWindowSwitch_Example";
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		510A03C6CB737FAA5C482EB6975C6707 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				AC2A2EB77723DE3333FE06996B6376D9 /* HyperWindowSwitch.h */,
-				D79AA95DE33C214F2F00FDE14A93D859 /* HyperWindowSwitch.m */,
-				B650613EF4916B4B75D945A9A6C2190B /* HyperWindowSwitchDummyVC.h */,
-				69B8CE7FB92C4BAAB40D98DFA5E00B0F /* HyperWindowSwitchDummyVC.m */,
-				A3A026C91DD317FA0013BE40 /* Fade */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		6E6CCDD6E34612259F372547F883AA9B /* HyperWindowSwitch */ = {
 			isa = PBXGroup;
 			children = (
-				F71011EDDA8B23B4C1A35B22C3EEA957 /* HyperWindowSwitch */,
+				72962C2E6111D08D75A66803C166613C /* HyperWindowSwitch */,
 				B498F03BFC7808B3151F08A21FDDD5D8 /* Support Files */,
 			);
 			name = HyperWindowSwitch;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		72962C2E6111D08D75A66803C166613C /* HyperWindowSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				9C5640FBE4CAB3F72CFB5509449A4404 /* Classes */,
+			);
+			path = HyperWindowSwitch;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -173,15 +157,13 @@
 			);
 			sourceTree = "<group>";
 		};
-		A3A026C91DD317FA0013BE40 /* Fade */ = {
+		9C5640FBE4CAB3F72CFB5509449A4404 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				68E46DEC03A467409ACD8D5B6ED154DA /* HyperWindowSwitchTransitioningDelegate.h */,
-				F15015407DE62314419DBB1A6E5E70EB /* HyperWindowSwitchTransitioningDelegate.m */,
-				69F206DD77DEEBF6F97A3214BD40AC7A /* HyperWindowSwitchTransitioningPresentation.h */,
-				80583D099E8CCB19E6746AA5F9690E65 /* HyperWindowSwitchTransitioningPresentation.m */,
+				0309A07D1DF963EA00444E0C /* HyperWindowSwitch.h */,
+				0309A07E1DF963EA00444E0C /* HyperWindowSwitch.m */,
 			);
-			name = Fade;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		B498F03BFC7808B3151F08A21FDDD5D8 /* Support Files */ = {
@@ -201,7 +183,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -243,34 +225,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F71011EDDA8B23B4C1A35B22C3EEA957 /* HyperWindowSwitch */ = {
-			isa = PBXGroup;
-			children = (
-				510A03C6CB737FAA5C482EB6975C6707 /* Classes */,
-			);
-			path = HyperWindowSwitch;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2423E0F15B64A1CDBDEC0EF6FFB438B2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE4DB52AA0B4ADB85DD8F1AE3253EA2A /* HyperWindowSwitch-umbrella.h in Headers */,
-				BDC3563FE09A05A361E3E24E3BF4A78B /* HyperWindowSwitch.h in Headers */,
-				A28E34B2B77E4847957A6801D14F450F /* HyperWindowSwitchDummyVC.h in Headers */,
-				D8B0E0B9B3C89F909363B6C38025FACC /* HyperWindowSwitchTransitioningDelegate.h in Headers */,
-				C87F4EF8332E4F13600C8165DDB51D21 /* HyperWindowSwitchTransitioningPresentation.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		364929D0471DE88C3D21328B6F705978 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9B5EFF825201EC4FF63081214AC47662 /* Pods-HyperWindowSwitch_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5572BC131141ABE0C2EFBB0E6ECDF33B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CB6F3907541396CB787A29242D4110 /* HyperWindowSwitch-umbrella.h in Headers */,
+				0309A07F1DF963EA00444E0C /* HyperWindowSwitch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,13 +256,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		070A1884D4CE713ACE69EB9710988505 /* HyperWindowSwitch */ = {
+		3351F717334B4A4433F8B4A20F51AC5F /* HyperWindowSwitch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12A4D86C1E94619BAC7DB64613E63D6E /* Build configuration list for PBXNativeTarget "HyperWindowSwitch" */;
+			buildConfigurationList = 7F8921FFF492809AFF9D3AACB98B29DA /* Build configuration list for PBXNativeTarget "HyperWindowSwitch" */;
 			buildPhases = (
-				7ACDE84387FA7C89017A203FD8A4E594 /* Sources */,
-				0634F43A15514C30601E4F5BF08920BF /* Frameworks */,
-				2423E0F15B64A1CDBDEC0EF6FFB438B2 /* Headers */,
+				2E7E82E0348119F20C38A9957A002F0D /* Sources */,
+				0DD7362136C8E2A5DF0F0AF6D19ADBA0 /* Frameworks */,
+				5572BC131141ABE0C2EFBB0E6ECDF33B /* Headers */,
 			);
 			buildRules = (
 			);
@@ -358,7 +329,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				070A1884D4CE713ACE69EB9710988505 /* HyperWindowSwitch */,
+				3351F717334B4A4433F8B4A20F51AC5F /* HyperWindowSwitch */,
 				C18CE6AFCFB812E071CADEDA5182C483 /* Pods-HyperWindowSwitch_Example */,
 				FED366E0400291CFDA4FF0F77D5994EF /* Pods-HyperWindowSwitch_Tests */,
 			);
@@ -374,15 +345,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7ACDE84387FA7C89017A203FD8A4E594 /* Sources */ = {
+		2E7E82E0348119F20C38A9957A002F0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC400F05C1E4E83ED47BCECA2BB9E4B8 /* HyperWindowSwitch-dummy.m in Sources */,
-				9D3136AE64C72E6533B3A3F77E11C58D /* HyperWindowSwitch.m in Sources */,
-				530DAB8DDE60DC2CD56EC31DFBF8850B /* HyperWindowSwitchDummyVC.m in Sources */,
-				E840CE1786327FDBD4992D27FD8ACA77 /* HyperWindowSwitchTransitioningDelegate.m in Sources */,
-				A291A2FA1422A07FA4564DC46C5AA846 /* HyperWindowSwitchTransitioningPresentation.m in Sources */,
+				0309A0801DF963EA00444E0C /* HyperWindowSwitch.m in Sources */,
+				B62463689D9FF61FBDE667C937940970 /* HyperWindowSwitch-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,13 +368,110 @@
 		4CA47D6A4F37312B700E4CED6E81797D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HyperWindowSwitch;
-			target = 070A1884D4CE713ACE69EB9710988505 /* HyperWindowSwitch */;
+			target = 3351F717334B4A4433F8B4A20F51AC5F /* HyperWindowSwitch */;
 			targetProxy = E8C86A200F0EA7F4FA2453754271E5CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+		5152BC945EE760014FFB125FC1581A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E4AEB76ED12C5A4EE2D7864499B8C6A /* HyperWindowSwitch.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HyperWindowSwitch/HyperWindowSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HyperWindowSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HyperWindowSwitch/HyperWindowSwitch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HyperWindowSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		646CBB5B617B5553F51BBBA02A6991EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E4AEB76ED12C5A4EE2D7864499B8C6A /* HyperWindowSwitch.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HyperWindowSwitch/HyperWindowSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HyperWindowSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HyperWindowSwitch/HyperWindowSwitch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HyperWindowSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D6692F27537B7D8B44E80477321C795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36D12D1E842E41386A823127F22E23F2 /* Pods-HyperWindowSwitch_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HyperWindowSwitch_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HyperWindowSwitch_Tests/Pods-HyperWindowSwitch_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HyperWindowSwitch_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -424,6 +489,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -438,141 +504,64 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		554B1BDB39507324A97F49C96FE39FA7 /* Release */ = {
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E4AEB76ED12C5A4EE2D7864499B8C6A /* HyperWindowSwitch.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HyperWindowSwitch/HyperWindowSwitch-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HyperWindowSwitch/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HyperWindowSwitch/HyperWindowSwitch.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = HyperWindowSwitch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		665F2340AAE9D07B7389C832CFED0C97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36D12D1E842E41386A823127F22E23F2 /* Pods-HyperWindowSwitch_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HyperWindowSwitch_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HyperWindowSwitch_Tests/Pods-HyperWindowSwitch_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HyperWindowSwitch_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		7DEAD8222E239A07023A83D1BD0070AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E4AEB76ED12C5A4EE2D7864499B8C6A /* HyperWindowSwitch.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HyperWindowSwitch/HyperWindowSwitch-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HyperWindowSwitch/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HyperWindowSwitch/HyperWindowSwitch.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = HyperWindowSwitch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B9B88C8ABC6B266F3E546C6503092401 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 851B0BA74204AC705A3524BF34732161 /* Pods-HyperWindowSwitch_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HyperWindowSwitch_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HyperWindowSwitch_Tests/Pods-HyperWindowSwitch_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HyperWindowSwitch_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C5FA7F8BC56C985152563BF70DBEE867 /* Debug */ = {
+		AF65F51A6E1E621FE65E3CA6960A3CF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD78B2229BF3980F618ACD512D4794E2 /* Pods-HyperWindowSwitch_Example.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -601,53 +590,48 @@
 			};
 			name = Debug;
 		};
-		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+		BF598D14043FFFAF59DBB37CA4903FFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 851B0BA74204AC705A3524BF34732161 /* Pods-HyperWindowSwitch_Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HyperWindowSwitch_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HyperWindowSwitch_Tests/Pods-HyperWindowSwitch_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HyperWindowSwitch_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		FDFB7653B188EE873C958BDA4511235D /* Release */ = {
+		D2533CFB72815943E96E6B3047DAD458 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FB632E40254B7661824C828576BF7407 /* Pods-HyperWindowSwitch_Example.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -679,20 +663,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		12A4D86C1E94619BAC7DB64613E63D6E /* Build configuration list for PBXNativeTarget "HyperWindowSwitch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7DEAD8222E239A07023A83D1BD0070AA /* Debug */,
-				554B1BDB39507324A97F49C96FE39FA7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
-				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -700,8 +675,17 @@
 		7AA857ECF4B3864EBE6BE711A85E78C9 /* Build configuration list for PBXNativeTarget "Pods-HyperWindowSwitch_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C5FA7F8BC56C985152563BF70DBEE867 /* Debug */,
-				FDFB7653B188EE873C958BDA4511235D /* Release */,
+				AF65F51A6E1E621FE65E3CA6960A3CF8 /* Debug */,
+				D2533CFB72815943E96E6B3047DAD458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8921FFF492809AFF9D3AACB98B29DA /* Build configuration list for PBXNativeTarget "HyperWindowSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5152BC945EE760014FFB125FC1581A4F /* Debug */,
+				646CBB5B617B5553F51BBBA02A6991EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -709,8 +693,8 @@
 		E199A2A76BAA76EBD247C18125756FE7 /* Build configuration list for PBXNativeTarget "Pods-HyperWindowSwitch_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				665F2340AAE9D07B7389C832CFED0C97 /* Debug */,
-				B9B88C8ABC6B266F3E546C6503092401 /* Release */,
+				6D6692F27537B7D8B44E80477321C795 /* Debug */,
+				BF598D14043FFFAF59DBB37CA4903FFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

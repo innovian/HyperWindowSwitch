@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0720"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -17,7 +17,7 @@
                BlueprintIdentifier = "6003F589195388D20070C39A"
                BuildableName = "HyperWindowSwitch_Example.app"
                BlueprintName = "HyperWindowSwitch_Example"
-               ReferencedContainer = "container:HyperWindowSwitjjch.xcodeproj">
+               ReferencedContainer = "container:HyperWindowSwitch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
                BuildableName = "HyperWindowSwitch_Tests.xctest"
                BlueprintName = "HyperWindowSwitch_Tests"
-               ReferencedContainer = "container:HyperWindowSwitjjch.xcodeproj">
+               ReferencedContainer = "container:HyperWindowSwitch.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "6003F589195388D20070C39A"
             BuildableName = "HyperWindowSwitch_Example.app"
             BlueprintName = "HyperWindowSwitch_Example"
-            ReferencedContainer = "container:HyperWindowSwitjjch.xcodeproj">
+            ReferencedContainer = "container:HyperWindowSwitch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -68,16 +68,9 @@
             BlueprintIdentifier = "6003F589195388D20070C39A"
             BuildableName = "HyperWindowSwitch_Example.app"
             BlueprintName = "HyperWindowSwitch_Example"
-            ReferencedContainer = "container:HyperWindowSwitjjch.xcodeproj">
+            ReferencedContainer = "container:HyperWindowSwitch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "OS_ACTIVITY_MODE"
-            value = "disable"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -94,7 +87,7 @@
             BlueprintIdentifier = "6003F589195388D20070C39A"
             BuildableName = "HyperWindowSwitch_Example.app"
             BlueprintName = "HyperWindowSwitch_Example"
-            ReferencedContainer = "container:HyperWindowSwitjjch.xcodeproj">
+            ReferencedContainer = "container:HyperWindowSwitch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

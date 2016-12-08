@@ -2,24 +2,17 @@
 //  ExampleAppDelegate.m
 //  HyperWindowSwitch
 //
-//  Created by H.Vakilian on 11/03/2016.
+//  Created by H.Vakilian on 12/08/2016.
 //  Copyright (c) 2016 H.Vakilian. All rights reserved.
 //
 
 #import "ExampleAppDelegate.h"
-#import "HyperWindowSwitch.h"
 
 @implementation ExampleAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
-	[HyperWindowSwitch initializeWindowForAppDelegate:self];
-	
-	UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-	UIViewController *home = [storyboard instantiateViewControllerWithIdentifier:@"LogoutNavigationController"];
-	
-	[HyperWindowSwitch setRootViewController:home];
+    // Override point for customization after application launch.
     return YES;
 }
 

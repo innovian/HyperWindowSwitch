@@ -7,26 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03BCFB621DCB784000EB58EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BCFB611DCB784000EB58EB /* Main.storyboard */; };
-		03BCFB681DCB7A0400EB58EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BCFB671DCB7A0400EB58EB /* LaunchScreen.storyboard */; };
-		03BCFB6B1DCB7B1B00EB58EB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BCFB6A1DCB7B1B00EB58EB /* LoginViewController.m */; };
-		03BCFB701DCB7BB200EB58EB /* MyTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BCFB6D1DCB7BB200EB58EB /* MyTransitioningDelegate.m */; };
-		03BCFB711DCB7BB200EB58EB /* MyTransitioningPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BCFB6F1DCB7BB200EB58EB /* MyTransitioningPresentation.m */; };
-		2BE82266C2A45B1E485854E5 /* Pods_HyperWindowSwitch_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C66EC96C19593DE31E3F480 /* Pods_HyperWindowSwitch_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* ExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* ExampleAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* HomeFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* HomeFirstViewController.m */; };
+		6003F5A7195388D20070C39A /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* ExampleViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		DA0C3FEF14BEEA3E73227543 /* Pods_HyperWindowSwitch_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFEADC2C325A5B18A9C6B97 /* Pods_HyperWindowSwitch_Example.framework */; };
+		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		ACB36F9821D846724681A96E /* Pods_HyperWindowSwitch_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C137D3DE42EE04A0BC7FF44 /* Pods_HyperWindowSwitch_Example.framework */; };
+		E9C9C8671A2DE4560FFB624F /* Pods_HyperWindowSwitch_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BABB6A72239DFC774D65540 /* Pods_HyperWindowSwitch_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,19 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03BCFB611DCB784000EB58EB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		03BCFB671DCB7A0400EB58EB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
-		03BCFB691DCB7B1B00EB58EB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		03BCFB6A1DCB7B1B00EB58EB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		03BCFB6C1DCB7BB200EB58EB /* MyTransitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTransitioningDelegate.h; sourceTree = "<group>"; };
-		03BCFB6D1DCB7BB200EB58EB /* MyTransitioningDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTransitioningDelegate.m; sourceTree = "<group>"; };
-		03BCFB6E1DCB7BB200EB58EB /* MyTransitioningPresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTransitioningPresentation.h; sourceTree = "<group>"; };
-		03BCFB6F1DCB7BB200EB58EB /* MyTransitioningPresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTransitioningPresentation.m; sourceTree = "<group>"; };
-		0C66EC96C19593DE31E3F480 /* Pods_HyperWindowSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperWindowSwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BFEADC2C325A5B18A9C6B97 /* Pods_HyperWindowSwitch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperWindowSwitch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		33555F43F081E393D23FF75D /* Pods-HyperWindowSwitch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperWindowSwitch_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HyperWindowSwitch_Tests/Pods-HyperWindowSwitch_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		52EEFCFDC184A9F2C8296F2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5521D0BF53D066DFFD698C8B /* Pods-HyperWindowSwitch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperWindowSwitch_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HyperWindowSwitch_Tests/Pods-HyperWindowSwitch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		120B1A86A81D1DFE1906146C /* Pods-HyperWindowSwitch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperWindowSwitch_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HyperWindowSwitch_Example/Pods-HyperWindowSwitch_Example.release.xcconfig"; sourceTree = "<group>"; };
+		475232C6A79D3A35A422BF8A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5C832A97871BDC170F53C3EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HyperWindowSwitch_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyperWindowSwitch_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +49,8 @@
 		6003F59B195388D20070C39A /* HyperWindowSwitch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HyperWindowSwitch-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* ExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* ExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* HomeFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeFirstViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* HomeFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeFirstViewController.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* ExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* ExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* HyperWindowSwitch_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyperWindowSwitch_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -72,10 +58,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6F99EEEAB951FE7F9DD06D07 /* Pods-HyperWindowSwitch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperWindowSwitch_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HyperWindowSwitch_Example/Pods-HyperWindowSwitch_Example.release.xcconfig"; sourceTree = "<group>"; };
-		70F79BFA91D770F04DE90E5E /* HyperWindowSwitch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HyperWindowSwitch.podspec; path = ../HyperWindowSwitch.podspec; sourceTree = "<group>"; };
-		E4588975EB7701EA6ED21316 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F3243DC0AA817723BC87908E /* Pods-HyperWindowSwitch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperWindowSwitch_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HyperWindowSwitch_Example/Pods-HyperWindowSwitch_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6B6BE5FAA1C1BFB70C7C3F56 /* Pods-HyperWindowSwitch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperWindowSwitch_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HyperWindowSwitch_Tests/Pods-HyperWindowSwitch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D2C9BBA360C4890342F09E8 /* Pods-HyperWindowSwitch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperWindowSwitch_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HyperWindowSwitch_Example/Pods-HyperWindowSwitch_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8C137D3DE42EE04A0BC7FF44 /* Pods_HyperWindowSwitch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperWindowSwitch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BABB6A72239DFC774D65540 /* Pods_HyperWindowSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperWindowSwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6092521657E4FF5B245E270 /* HyperWindowSwitch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HyperWindowSwitch.podspec; path = ../HyperWindowSwitch.podspec; sourceTree = "<group>"; };
+		FB850F5B8F7748A1E29DFB27 /* Pods-HyperWindowSwitch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperWindowSwitch_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HyperWindowSwitch_Tests/Pods-HyperWindowSwitch_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				DA0C3FEF14BEEA3E73227543 /* Pods_HyperWindowSwitch_Example.framework in Frameworks */,
+				ACB36F9821D846724681A96E /* Pods_HyperWindowSwitch_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,22 +86,22 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				2BE82266C2A45B1E485854E5 /* Pods_HyperWindowSwitch_Tests.framework in Frameworks */,
+				E9C9C8671A2DE4560FFB624F /* Pods_HyperWindowSwitch_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03BCFB721DCB7BB500EB58EB /* Example of custom animation */ = {
+		1771867593F9ED09DA7EC47B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				03BCFB6C1DCB7BB200EB58EB /* MyTransitioningDelegate.h */,
-				03BCFB6D1DCB7BB200EB58EB /* MyTransitioningDelegate.m */,
-				03BCFB6E1DCB7BB200EB58EB /* MyTransitioningPresentation.h */,
-				03BCFB6F1DCB7BB200EB58EB /* MyTransitioningPresentation.m */,
+				7D2C9BBA360C4890342F09E8 /* Pods-HyperWindowSwitch_Example.debug.xcconfig */,
+				120B1A86A81D1DFE1906146C /* Pods-HyperWindowSwitch_Example.release.xcconfig */,
+				6B6BE5FAA1C1BFB70C7C3F56 /* Pods-HyperWindowSwitch_Tests.debug.xcconfig */,
+				FB850F5B8F7748A1E29DFB27 /* Pods-HyperWindowSwitch_Tests.release.xcconfig */,
 			);
-			name = "Example of custom animation";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -123,7 +112,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				F3B1E501D14A01360189E037 /* Pods */,
+				1771867593F9ED09DA7EC47B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,8 +132,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				1BFEADC2C325A5B18A9C6B97 /* Pods_HyperWindowSwitch_Example.framework */,
-				0C66EC96C19593DE31E3F480 /* Pods_HyperWindowSwitch_Tests.framework */,
+				8C137D3DE42EE04A0BC7FF44 /* Pods_HyperWindowSwitch_Example.framework */,
+				9BABB6A72239DFC774D65540 /* Pods_HyperWindowSwitch_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -154,12 +143,9 @@
 			children = (
 				6003F59C195388D20070C39A /* ExampleAppDelegate.h */,
 				6003F59D195388D20070C39A /* ExampleAppDelegate.m */,
-				03BCFB611DCB784000EB58EB /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* HomeFirstViewController.h */,
-				6003F5A6195388D20070C39A /* HomeFirstViewController.m */,
-				03BCFB691DCB7B1B00EB58EB /* LoginViewController.h */,
-				03BCFB6A1DCB7B1B00EB58EB /* LoginViewController.m */,
-				03BCFB721DCB7BB500EB58EB /* Example of custom animation */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				6003F5A5195388D20070C39A /* ExampleViewController.h */,
+				6003F5A6195388D20070C39A /* ExampleViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -170,7 +156,6 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				03BCFB671DCB7A0400EB58EB /* LaunchScreen.storyboard */,
 				6003F595195388D20070C39A /* HyperWindowSwitch-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -201,22 +186,11 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				70F79BFA91D770F04DE90E5E /* HyperWindowSwitch.podspec */,
-				E4588975EB7701EA6ED21316 /* README.md */,
-				52EEFCFDC184A9F2C8296F2D /* LICENSE */,
+				A6092521657E4FF5B245E270 /* HyperWindowSwitch.podspec */,
+				475232C6A79D3A35A422BF8A /* README.md */,
+				5C832A97871BDC170F53C3EB /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		F3B1E501D14A01360189E037 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F3243DC0AA817723BC87908E /* Pods-HyperWindowSwitch_Example.debug.xcconfig */,
-				6F99EEEAB951FE7F9DD06D07 /* Pods-HyperWindowSwitch_Example.release.xcconfig */,
-				5521D0BF53D066DFFD698C8B /* Pods-HyperWindowSwitch_Tests.debug.xcconfig */,
-				33555F43F081E393D23FF75D /* Pods-HyperWindowSwitch_Tests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,12 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "HyperWindowSwitch_Example" */;
 			buildPhases = (
-				C7BB28DCDBB127C1D9A60E01 /* [CP] Check Pods Manifest.lock */,
+				177A2A6C7906C1C701139E62 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				D5131E3248781445F5870FDE /* [CP] Embed Pods Frameworks */,
-				747C24DB89A95B007CE1D002 /* [CP] Copy Pods Resources */,
+				B6971F7AC6A5BF961945E11D /* [CP] Embed Pods Frameworks */,
+				AF01E7669E15CF293B4778FC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,12 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "HyperWindowSwitch_Tests" */;
 			buildPhases = (
-				12BB2BF896F6F23153D78914 /* [CP] Check Pods Manifest.lock */,
+				3BE060DBC5406D13B6DD87E0 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				5142A385C95027A902205D28 /* [CP] Embed Pods Frameworks */,
-				E3A8A4980A7B7F2FBF1D7C0E /* [CP] Copy Pods Resources */,
+				9A3B453F130D5DA65091D87E /* [CP] Embed Pods Frameworks */,
+				36EDF32B5E317A4584664747 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,18 +244,15 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = Example;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = H.Vakilian;
 				TargetAttributes = {
-					6003F589195388D20070C39A = {
-						DevelopmentTeam = 4486G5N4E6;
-					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "HyperWindowSwitjjch" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "HyperWindowSwitch" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -305,8 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03BCFB621DCB784000EB58EB /* Main.storyboard in Resources */,
-				03BCFB681DCB7A0400EB58EB /* LaunchScreen.storyboard in Resources */,
+				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -323,7 +293,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		12BB2BF896F6F23153D78914 /* [CP] Check Pods Manifest.lock */ = {
+		177A2A6C7906C1C701139E62 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -335,70 +305,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		5142A385C95027A902205D28 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HyperWindowSwitch_Tests/Pods-HyperWindowSwitch_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		747C24DB89A95B007CE1D002 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HyperWindowSwitch_Example/Pods-HyperWindowSwitch_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C7BB28DCDBB127C1D9A60E01 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		D5131E3248781445F5870FDE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HyperWindowSwitch_Example/Pods-HyperWindowSwitch_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E3A8A4980A7B7F2FBF1D7C0E /* [CP] Copy Pods Resources */ = {
+		36EDF32B5E317A4584664747 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -413,6 +323,66 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HyperWindowSwitch_Tests/Pods-HyperWindowSwitch_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		3BE060DBC5406D13B6DD87E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A3B453F130D5DA65091D87E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HyperWindowSwitch_Tests/Pods-HyperWindowSwitch_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF01E7669E15CF293B4778FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HyperWindowSwitch_Example/Pods-HyperWindowSwitch_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6971F7AC6A5BF961945E11D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HyperWindowSwitch_Example/Pods-HyperWindowSwitch_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -420,11 +390,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03BCFB6B1DCB7B1B00EB58EB /* LoginViewController.m in Sources */,
 				6003F59E195388D20070C39A /* ExampleAppDelegate.m in Sources */,
-				03BCFB701DCB7BB200EB58EB /* MyTransitioningDelegate.m in Sources */,
-				03BCFB711DCB7BB200EB58EB /* MyTransitioningPresentation.m in Sources */,
-				6003F5A7195388D20070C39A /* HomeFirstViewController.m in Sources */,
+				6003F5A7195388D20070C39A /* ExampleViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,19 +447,14 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -525,18 +487,13 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -552,11 +509,10 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3243DC0AA817723BC87908E /* Pods-HyperWindowSwitch_Example.debug.xcconfig */;
+			baseConfigurationReference = 7D2C9BBA360C4890342F09E8 /* Pods-HyperWindowSwitch_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 4486G5N4E6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HyperWindowSwitch/HyperWindowSwitch-Prefix.pch";
 				INFOPLIST_FILE = "HyperWindowSwitch/HyperWindowSwitch-Info.plist";
@@ -569,11 +525,10 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F99EEEAB951FE7F9DD06D07 /* Pods-HyperWindowSwitch_Example.release.xcconfig */;
+			baseConfigurationReference = 120B1A86A81D1DFE1906146C /* Pods-HyperWindowSwitch_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 4486G5N4E6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HyperWindowSwitch/HyperWindowSwitch-Prefix.pch";
 				INFOPLIST_FILE = "HyperWindowSwitch/HyperWindowSwitch-Info.plist";
@@ -586,7 +541,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5521D0BF53D066DFFD698C8B /* Pods-HyperWindowSwitch_Tests.debug.xcconfig */;
+			baseConfigurationReference = 6B6BE5FAA1C1BFB70C7C3F56 /* Pods-HyperWindowSwitch_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -610,7 +565,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33555F43F081E393D23FF75D /* Pods-HyperWindowSwitch_Tests.release.xcconfig */;
+			baseConfigurationReference = FB850F5B8F7748A1E29DFB27 /* Pods-HyperWindowSwitch_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -631,7 +586,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "HyperWindowSwitjjch" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "HyperWindowSwitch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
