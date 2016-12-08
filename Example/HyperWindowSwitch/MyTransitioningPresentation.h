@@ -14,6 +14,6 @@
 
 @property (nonatomic) BOOL isPresenting;
 @property (nonatomic)transitionMode transitionMode;
--(instancetype)initWithTransitionMode:(transitionMode*) transitionMode;
+-(instancetype)initWithTransitionMode:(transitionMode) transitionMode;
 
 @end

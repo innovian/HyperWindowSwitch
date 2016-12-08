@@ -11,7 +11,7 @@
 #import "MyTransitioningDelegate.h"
 
 
-@interface HomeFirstViewController ()
+@interface HomeFirstViewController () <UITextFieldDelegate>
 {
 	MyTransitioningDelegate* transitioningDelegate;
     __weak IBOutlet UIButton *loginButton;
