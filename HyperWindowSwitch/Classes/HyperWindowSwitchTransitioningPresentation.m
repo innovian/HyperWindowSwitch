@@ -8,7 +8,7 @@
 
 #import "HyperWindowSwitchTransitioningPresentation.h"
 
-@interface HyperWindowSwitchTransitioningPresentation()
+@interface HyperWindowSwitchTransitioningPresentation() <UIDynamicAnimatorDelegate>
 @property (nonatomic) UIDynamicAnimator *animator;
 @property (nonatomic) id transitionContext;
 @end
@@ -24,7 +24,7 @@
     _transitionContext = transitionContext;
     NSTimeInterval animationDuration = [self transitionDuration:transitionContext];
     UIView *containerView = [_transitionContext containerView];
-    UIViewController *fromViewController = [_transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
+//    UIViewController *fromViewController = [_transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
     UIViewController *toViewController = [_transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
     [containerView addSubview:toViewController.view];
     
